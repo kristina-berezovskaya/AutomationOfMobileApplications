@@ -4,9 +4,10 @@ import org.junit.Test;
 public class MainClassTest
 {
     @Test
-    public void testGetLocalNumber()
+    public void testGetClassNumber()
     {
         MainClass newObject = new MainClass();
-        Assert.assertTrue("Method getLocalNumber doesn't return int 14 ",newObject.getLocalNumber() == 14);
+        Assert.assertTrue("Doesn't return the digit  > 45", newObject.getClassNumber() > 45);
     }
 }
+
